@@ -20,22 +20,13 @@
 <p title="All The Things" align="center"> <img src="https://i.imgur.com/j4oqXCh.jpg"></p>
 
 
-# **TRANSCENDENCE EDITION**
+# NIRVANA EDITION
 
 This Transcendence Edition builds upon the [Braindamage Edition](https://github.com/tferrari92/automate-all-the-things-braindamage).
 
 ### New features:
-- Horizontal Pod Autoscaler & Metrics-Server
-- Crossplane
-- Beefier Backstage deployment with 
-  - New plugins:
-    - GitHub Actions plugin
-    - GitHub Insights plugin
-    - ArgoCD plugin
-    - Grafana plugin
-  - New templates:
-    - Create new S3 Bucket
-    - Create new EKS Cluster
+- External Secrets Operator
+- Crossplane extras
 
 ### Versions in order of complexity:
 
@@ -700,7 +691,7 @@ Here are the specific numbers:
 - -10 ArgoCD App of Apps
 
 ## App of Apps
-- -5 Prometheus / Grafana / Istio Base / Istiod / Sealed-Secrets 
+- -5 Prometheus / Grafana / Istio Base / Istiod / Sealed-Secrets / External-Secrets 
 - -4 Istio Gateway / Jaeger / Loki  
 - -3 Flagger / Crossplane / Metrics-Server
 - -2 Kiali / Flagger Load-Tester / Crossplane Providers
