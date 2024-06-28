@@ -22,7 +22,8 @@
 #   security_group_ids = [aws_security_group.databases.id]
 
 #   transit_encryption_enabled = true
-#   auth_token =  "automate-all-the-things-dev"
+# #   auth_token =  "automate-all-the-things-dev"
+#   auth_token =  data.aws_secretsmanager_random_password.elasticache_dev.random_secrets
 
 #   cluster_mode {
 #     replicas_per_node_group = 1
@@ -47,7 +48,8 @@
 #   security_group_ids = [aws_security_group.databases.id]
 
 #   transit_encryption_enabled = true
-#   auth_token =  "automate-all-the-things-stage"
+# #   auth_token =  "automate-all-the-things-stage"
+#   auth_token =  data.aws_secretsmanager_random_password.elasticache_stage.random_secrets
 
 #   cluster_mode {
 #     replicas_per_node_group = 1
@@ -72,7 +74,8 @@
 #   security_group_ids = [aws_security_group.databases.id]
 
 #   transit_encryption_enabled = true
-#   auth_token =  "automate-all-the-things-prod"
+# #   auth_token =  "automate-all-the-things-prod"
+#   auth_token =  data.aws_secretsmanager_random_password.elasticache_prod.random_secrets
 
 #   cluster_mode {
 #     replicas_per_node_group = 1
