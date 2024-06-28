@@ -22,7 +22,7 @@
 
 # NIRVANA EDITION
 
-This Transcendence Edition builds upon the [Braindamage Edition](https://github.com/tferrari92/automate-all-the-things-braindamage).
+This Nirvana Edition builds upon the [Transcendence Edition](https://github.com/tferrari92/automate-all-the-things-transcendence).
 
 ### New features:
 - External Secrets Operator
