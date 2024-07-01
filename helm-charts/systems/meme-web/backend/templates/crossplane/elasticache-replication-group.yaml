@@ -1,4 +1,4 @@
-apiVersion: elasticache.aws.upbound.io/v1beta1
+apiVersion: elasticache.aws.upbound.io/v1beta2
 kind: ReplicationGroup
 metadata:
   name: {{ .Values.system }}-{{ .Values.service }}-{{ .Values.environment }}-ec-rep-grp
