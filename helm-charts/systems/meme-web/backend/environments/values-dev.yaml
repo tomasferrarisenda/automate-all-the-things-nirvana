@@ -7,7 +7,4 @@ deployment:
     tag: 13
   replicas: 1
   labels:
-    full-name: meme-web-backend-dev # This value was modified by the initial-setup python script
-
-# secret:
-#   redisPass: AgBlSu/Rg6wUB65XgGmB1n7US7blb+mVrFApwsuOknN9Os9U6vBMzTbfMVqv4c5c1e0zpNm81dXCUaI1iqd82y7onnNvm72dmqbWWnfguK9w5LmwPb8y3HjLcQGLUy2/QHTqElvZSKh/jwIAFDXeMxnLWelL4OYPqL78IuuAE9e3xQWakeBLCKQ+v01ryHpGo2OPMUF4sa8dBGFBLuAe/c4NeI1RePz6NUjxyKThm/GkNNFErVYZT8noMSMbdPmWOm5yzJ+NI7UtCTKt39TBKwtNerr2pL+N6KdnsCxYvQQk0Tt4vyktJ/5KF9KkKUYh/WjroYES4TEqdUCinymcI6ZrUJxtXpT0V2uatZeKF11EJRH/hy4rkS4bVZJpZ9cucwyvS/NtdV7GfjJ59q7XuclYWMuSbTtrfKmMOJqbG3eKcfKKdGxhK08g9rxFB2ORr6nJLP4cYy3/iNl9khjvTdJm+i8rN1GyKI7EeF/e+hgFcsxAmxAoVDI4Fk+pWvCds0e6YTJx6nkeVd5I3dTYH4U/UdUXhmfM6vwZZluNjdYCWW++EPSJRQezygBCHIohNnrq2kgN+KI5J9nx672xE3NN/5C5WJid+IwAQ5CcI9xqvj70dtXN2kOODeURGK9KpxgabAO1k9oDc5lXW0TB/Hrz2ypbrhYLENid/3oTo39HiNQSRTahEbWWy8qu8lPMGLh0u983oqyFELjIQXap039zBZ6JPW+zSiVy7VY= # This value was modified by the sealed-secrets pipeline
+    full-name: meme-web-backend-dev # This value was modified by the initial-setup python scrip
