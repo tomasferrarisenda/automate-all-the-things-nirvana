@@ -19,7 +19,7 @@ spec:
     transitEncryptionEnabled: true
     authTokenSecretRef:
       namespace: {{ .Values.system }}-{{ .Values.environment }}
-      name: {{ .Values.system }}-{{ .Values.service }}-{{ .Values.environment }}-secret
+      name: {{ .Values.system }}-{{ .Values.service }}-{{ .Values.environment }}-redis-secret
       # name: redis-secret 
       key: REDIS_PASS
     tags:
