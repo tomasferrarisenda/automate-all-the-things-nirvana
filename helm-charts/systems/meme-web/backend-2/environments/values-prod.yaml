@@ -1,0 +1,10 @@
+environment: prod
+
+# redis_host: master.meme-web-backend-prod-ec-rep-grp.shelfr.use1.cache.amazonaws.com
+
+deployment:
+  image:
+    tag: 13
+  replicas: 1
+  labels:
+    full-name: meme-web-backend-prod # This value was modified by the initial-setup python script

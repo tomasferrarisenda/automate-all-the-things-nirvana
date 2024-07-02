@@ -1,0 +1,10 @@
+environment: stage
+
+# redis_host: master.meme-web-backend-stage-ec-rep-grp.shelfr.use1.cache.amazonaws.com
+
+deployment:
+  image:
+    tag: 13
+  replicas: 1
+  labels:
+    full-name: meme-web-backend-stage # This value was modified by the initial-setup python script

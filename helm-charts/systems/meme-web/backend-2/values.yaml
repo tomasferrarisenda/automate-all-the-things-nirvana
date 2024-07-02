@@ -1,0 +1,25 @@
+system: meme-web 
+
+service: backend
+
+port: 3000
+
+deployment:
+  labels:
+    system: meme-web 
+    service: backend
+    backstage.io/kubernetes-id: meme-web-backend 
+    istio: monitor
+  
+  image:
+    repository: tferrari92/meme-web-backend # This value was modified by the initial-setup python script
+
+vpcId: vpc-0fb38ab1b7dbffea4
+subnetId: subnet-0d41fbe56321712d3
+
+region: us-east-1 # This value was modified by the initial-setup python script
+
+# This doesn't work in objects of kind Resource. It only works in objects of kind Component.
+# elasticache:
+#   annotations:
+#     backstage.io/kubernetes-id: meme-web-elasticache 
